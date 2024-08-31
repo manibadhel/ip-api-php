@@ -31,8 +31,11 @@
             echo '<p class="text-danger">Unable to retrieve IP information from ip-api server.</p>';
         }
         ?>
-        <?php
-// Function to get the user's IP address
+
+<?PHP
+// Function to store visitors data (IP address and Time) in a JSON file, 
+
+// Get the user's IP address
 function getUserIP() {
     $ipnew = $_SERVER['REMOTE_ADDR'];
     return $ipnew;
