@@ -64,6 +64,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Bootstrap](https://getbootstrap.com) for the UI framework.
 - [ip-api.com](http://ip-api.com) for providing the IP information service.
+- If need any kind of help, contact me at [hi@maninder.net](mailto:hi@maninder.net)
 
 Feel free to contribute or open issues if you encounter any problems or have suggestions for improvements!
 
