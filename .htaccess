@@ -1,0 +1,14 @@
+RewriteOptions inherit
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+<Files "*.json">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
